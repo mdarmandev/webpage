@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding:10px;
+    display: block;
+    margin: 8px;
+}
+
+header{
+    text-align: center;
+    font-family: cursive;
+    color: black;
+    font-size: 60px;
+    padding-top: 25px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+}
+/* start of the article box */
+article{ 
+    display: block;
+}
+.quarter{
+    width: 25%;
+}
+.story{
+    border-right: 1px solid black;
+    padding: 0 10px;
+}
+/* start of the article box */
+.article-title{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    font-weight: normal;
+    font-style: italic;
+}
+h1{
+    display: block;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.half{
+    width: 50%;
+}
+.article-img{
+    width: 100%;
+}
+.other-section{
+    justify-content: center;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+.three-quarter{
+    width: 75%;
+}
+ul{
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.site-section-politics{
+    background-color: black;
+}
+.site-section-politics:hover{
+    background-color: blanchedalmond;
+}
+.site-section{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.section-link{
+    font-size: 30px;
+    padding-left: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    color: #666;
+}
+a{
+    cursor: pointer;
+}
+.site-section-tech{
+    background-color: black;
+}
+.site-section-tech:hover{
+    background-color: cyan;
+}
+.site-section-worldwide{
+    background-color:black;
+}
+.site-section-worldwide:hover{
+    background-color:greenyellow;
+}
+.site-section-opinion{
+    background-color: black;
+}
+.site-section-opinion:hover{
+    background-color: blue;
+}
+.site-section-sports{
+    background-color: black;
+}
+.site-section-sports:hover{
+    background-color: chocolate;
+}
